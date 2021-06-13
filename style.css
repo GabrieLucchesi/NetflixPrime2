@@ -1,0 +1,142 @@
+.html, body {
+  	background-color: rgb(30, 35, 40);
+	font-family: Arial;
+	color:rgb(255, 255, 255);
+	align-items: center;
+	text-align: center;
+	align-self: center;
+}
+.html{
+    padding: 0px;
+    margin: 0px;
+}
+.btn{
+    background-color: rgb(45, 45, 50);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(104, 0, 255);
+}
+
+/*Cabeçalho + menu*/
+.cabecalho{
+  	background-color: rgb(50, 55, 60);
+  	margin-bottom: 10px;
+}
+.menu_area{
+	font-size: 17px;
+    padding: 0.5%;
+}
+.menu_area nav a{
+	background-color: rgb(40, 45, 50);
+	color: white;
+}
+.menu_area nav a:hover{
+	background-color: rgb(65, 70, 80) !important;
+    color:rgb(104, 0, 255);
+}
+.logo{
+	font-size: 40px;
+	text-align: center;
+}
+
+/*Lançamentos*/
+.lancamentos{
+	padding: 1%;
+	margin-bottom: 15px;
+	font-size: 37px;
+	text-align: center;
+}
+.lancamentos h1{
+    margin-top: -15px;
+    font-size: 130%
+}
+.carocel{
+	padding: 0px;
+}
+.lancamentos b{
+    font-size: 14px;
+}
+.text h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3px;
+}
+.photo{
+	float: left;
+}
+.text{
+    color: rgb(190, 190, 190);
+    float: left;
+    text-align: left;
+	font-size: 15px;
+    padding: 3px;
+}
+.controler{
+    margin-top: 25px;
+}
+
+/*Em Destaque */
+.destaque{
+    margin: 0px;
+    background-color: rgb(50, 55, 60);
+}
+.titulo_des{
+    font-size: 50px;
+    float: left;
+    text-align: left;
+}
+.card-des{
+	background-color: rgb(20, 20, 45);
+	padding: 3px;
+    max-width: 240px;
+	margin-bottom: 3px;
+}
+.card-des:hover{
+	background-color: rgb(104, 0, 255) !important;
+	padding: 1px;
+}
+
+/*Em Cartaz*/
+.emCartaz{
+    margin-top: 5px;
+}
+.emCartaz h1{
+    font-size: 50px;
+}
+.cart{
+    margin-bottom: 3px;
+    background-color: rgb(50, 55, 60);
+    padding: 3px;
+}
+.photo-cart{
+    float: left;
+    padding: 3px;
+}
+.text-cart{
+    color: rgb(190, 190, 190);
+    float: right;
+    text-align: left;
+}
+
+.titulo_pesq{
+    text-align: left;
+}
+
+/*Rodapé*/
+.rodape{
+    margin-top: 3px;
+    background-color: rgb(50, 55, 60);
+}
+.text-rod{
+    margin-top: 1%;
+    float: left;
+}
+.img-rod{
+    float: right;
+    font-size: 30px;
+    padding: 0px;
+}
+.logo-site{
+    padding: 3px;
+}
